@@ -71,10 +71,6 @@ var modules = [
         "workSpace": 1,
         "efficiencyPart": [
             {
-                "name": "MKS_AgModule",
-                "value": "2"
-            },
-            {
                 "name": "MKV_AgModule",
                 "value": "2"
             },
@@ -111,8 +107,16 @@ var modules = [
         ]
     },
     {
-        "code": "MKS_PDU",
+        "code": "MKS_PDU2",
         "title": "UKS Power Distribution Unit",
+        "description": "The PDU allows long",
+        "crewCapacity": 2,
+        "name": null,
+        "workSpace": 1
+    },
+    {
+        "code": "MKS_PDU",
+        "title": "*LEGACY* UKS Power Distribution Unit",
         "description": "The Power Distribution Unit houses a small nuclear reactor",
         "crewCapacity": 2,
         "name": null,
@@ -215,7 +219,15 @@ var modules = [
     },
     {
         "code": "OKS_PDU",
-        "title": "OKS Power Distribution Unit",
+        "title": "*LEGACY* OKS Power Distribution Unit",
+        "description": "The Power Distribution Unit houses a small nuclear reactor",
+        "crewCapacity": 2,
+        "name": null,
+        "workSpace": 1
+    },
+    {
+        "code": "OKS_PDU",
+        "title": "*LEGACY* UKS Power Distribution Unit",
         "description": "The Power Distribution Unit houses a small nuclear reactor",
         "crewCapacity": 2,
         "name": null,
